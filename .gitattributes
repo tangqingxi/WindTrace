@@ -1,5 +1,8 @@
 # 文本统一LF，二进制资源保持原字节，便于逐文件核对来源。
 * text eol=lf
+# 批处理由 cmd.exe 解析，必须用CRLF，否则注释行可能被当作命令执行。
+*.cmd text eol=crlf
+*.bat text eol=crlf
 *.png binary
 *.ico binary
 *.glb binary
