@@ -1,0 +1,17 @@
+{
+  "schema": "windtrace.camera.v1",
+  "name": "环绕观察",
+  "description": "全程绕机体缓慢环绕，适合观察滚转与偏航的耦合。",
+  "shots": [
+    {
+      "start_s": 0,
+      "end_s": 55,
+      "mode": "orbit",
+      "radius_m": 4.5,
+      "azimuth_deg": 30,
+      "azimuth_end_deg": 140,
+      "elevation_deg": 12,
+      "ease": "smootherstep"
+    }
+  ]
+}

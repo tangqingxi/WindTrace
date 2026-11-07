@@ -1,0 +1,9 @@
+# 构建产物、本地环境与缓存不进入版本库
+/dist/
+/build/
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# 本地截图与临时输出
+/screenshots/

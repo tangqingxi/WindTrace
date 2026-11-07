@@ -1,0 +1,122 @@
+{
+  "schema": "windtrace.import_provenance.v1",
+  "source_repository": "https://github.com/tangqingxi/Ducted-Fan-SHC09-matlab",
+  "source_branch": "refactor/phase3-source",
+  "source_commit": "d422cb34e495fbe786395d9586694fe4ef6f88df",
+  "source_path": "apps/windtrace",
+  "migration_policy": "Standalone extraction of the single-flight .wtr Viewer only; the MATLAB log exporter (core/exporter.py) stays with the data-producing project.",
+  "original_import": {
+    "source_repository": "E:/Ducted-Fan-SHC09-matlab-merge",
+    "source_branch": "merge/windtrace-v02",
+    "source_commit": "1bbdb51b278bc9ce8a50965a40808acae314c56b",
+    "integration_policy": "Selective assets, GLB parser and original shell/theme; new single-flight contract; no old bundle interface or numerical source imported"
+  },
+  "files": [
+    {
+      "source_path": "apps/windtrace/LICENSE",
+      "source_sha256": "931e99bdc6ff2cf5596290e3183dd87643e80744c0abed66bd43fe27059476ad",
+      "target_path": "LICENSE",
+      "target_sha256": "982dc1eb13946da7f89171eb5c90f6349bd8c4d571609c04d8c5d5a8abba3bb5",
+      "adapted": true
+    },
+    {
+      "source_path": "apps/windtrace/THIRD_PARTY_NOTICES.md",
+      "source_sha256": "06389d00a5eb519212a8788beaec0e9d51ae3c41b203151cc4ccd4cc8b04fad8",
+      "target_path": "THIRD_PARTY_NOTICES.md",
+      "target_sha256": "04a02cb20be9e722d5e2a8d41521fc9e01eea6232a18fbf9932ffd5a27d91660",
+      "adapted": true
+    },
+    {
+      "source_path": "apps/windtrace/requirements.txt",
+      "source_sha256": "18de27cde9c069ee1aef8223e3b0ab6a1534d937ef061a61df37793cb4f12c91",
+      "target_path": "requirements.txt",
+      "target_sha256": "f573844ebd35532955fd1e457ca9a800f55e5069894715e3ec053ddceaf90a94",
+      "adapted": true
+    },
+    {
+      "source_path": "apps/windtrace/ui/glb_model.py",
+      "source_sha256": "9233da82c50a00675a4f21babcb3b13ae20bf8e07a668d755774e6eccc071bda",
+      "target_path": "ui/glb_model.py",
+      "target_sha256": "10a1a1ccb44a3ec6e4029fe93eecfea8f02737032fa093230c77c919f90a8340",
+      "adapted": true
+    },
+    {
+      "source_path": "apps/windtrace/ui/assets/SHC09.glb",
+      "source_sha256": "0c106c457d2508c769365f25e3b8a9335f25d041dd61f7fc121aaed66563fd28",
+      "target_path": "ui/assets/SHC09.glb",
+      "target_sha256": "0c106c457d2508c769365f25e3b8a9335f25d041dd61f7fc121aaed66563fd28",
+      "adapted": false
+    },
+    {
+      "source_path": "apps/windtrace/ui/assets/README.md",
+      "source_sha256": "4286e7202450d409d10763613cffadda5fc052e121e1c5a433c8a85e89eca546",
+      "target_path": "ui/assets/README.md",
+      "target_sha256": "d77aad8e5b53ef27994600a1daa117736ffa43cfd08bc350591aedc50403da11",
+      "adapted": true
+    },
+    {
+      "source_path": "apps/windtrace/assets/logo_32.png",
+      "source_sha256": "bdddf68a552dbc92fefb24e17fafde214ac3a4b649d92a73933797f3e18d28d9",
+      "target_path": "assets/logo_32.png",
+      "target_sha256": "bdddf68a552dbc92fefb24e17fafde214ac3a4b649d92a73933797f3e18d28d9",
+      "adapted": false
+    },
+    {
+      "source_path": "apps/windtrace/assets/logo_64.png",
+      "source_sha256": "862856e74225ba378821c0cb99a08e7187904d9e98d77d2ec017b841cf15761d",
+      "target_path": "assets/logo_64.png",
+      "target_sha256": "862856e74225ba378821c0cb99a08e7187904d9e98d77d2ec017b841cf15761d",
+      "adapted": false
+    },
+    {
+      "source_path": "apps/windtrace/assets/logo_256.png",
+      "source_sha256": "3a06f3ec6c99a9bdc72328d61c103790ed1e2dd91f0551d2dda4c091e2989007",
+      "target_path": "assets/logo_256.png",
+      "target_sha256": "3a06f3ec6c99a9bdc72328d61c103790ed1e2dd91f0551d2dda4c091e2989007",
+      "adapted": false
+    },
+    {
+      "source_path": "apps/windtrace/ui/shell.py",
+      "source_sha256": "f0d0b894b95ca8961010e9ac94af3f66ac0cf8e5ffc39338714275371b8f6395",
+      "target_path": "ui/shell.py",
+      "target_sha256": "1da6cebf55c4a4b8825dcd56c364f5af628d46d9f17b5f9fb921a10141daffe7",
+      "adapted": true
+    },
+    {
+      "source_path": "apps/windtrace/ui/theme.py",
+      "source_sha256": "d8ba54b3c943e3ce9b3d36df5e229237cc1b56936a33a9bb954f5ba301c512d0",
+      "target_path": "ui/theme.py",
+      "target_sha256": "0d396eb1954edb927c0c6f8695a4a5c2bd331e74f242a647f3534bc31910b8f7",
+      "adapted": true
+    },
+    {
+      "source_path": "apps/windtrace/ui/theme.qss",
+      "source_sha256": "fb481565f0c50408b7956830c36dfa0e065f03172fa7bfd63797c071cf5b179a",
+      "target_path": "ui/theme.qss",
+      "target_sha256": "f5c773f48d90a9f803590bcc9e5b3cd2c3bbbe06feeba0fcf3e8f38c3df050d8",
+      "adapted": true
+    },
+    {
+      "source_path": "apps/windtrace/core/geometry/shc09_geometry.json",
+      "source_sha256": "ef8c01da360202a532189fbad99050ba691d8d210ae21cd1ee881357bf38859f",
+      "target_path": "assets/geometry_source.json",
+      "target_sha256": "ef8c01da360202a532189fbad99050ba691d8d210ae21cd1ee881357bf38859f",
+      "adapted": false
+    },
+    {
+      "source_path": "apps/windtrace/assets/logo.ico",
+      "source_sha256": "98104f8856a5f256f0e53d971d70a43c636789d72f6d3c8531e43cb9292c1693",
+      "target_path": "assets/logo.ico",
+      "target_sha256": "98104f8856a5f256f0e53d971d70a43c636789d72f6d3c8531e43cb9292c1693",
+      "adapted": false
+    }
+  ],
+  "not_migrated": [
+    "core/exporter.py",
+    "core/visual_geometry.py",
+    "analysis/export_windtrace_flight.m",
+    "tools/export_windtrace.py",
+    "tools/audit_windtrace.py",
+    "docs/interfaces/windtrace_flight_v1.md (copied to docs/windtrace_flight_v1.md)"
+  ]
+}

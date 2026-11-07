@@ -1,0 +1,4 @@
+# 仅开发与打包需要；普通用户运行 EXE 不需要安装这些包。
+-r requirements.txt
+pytest==9.2.0
+pyinstaller==6.22.3

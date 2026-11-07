@@ -1,0 +1,24 @@
+{
+  "schema": "windtrace.camera.v1",
+  "name": "对比分析",
+  "description": "固定机位：0-12秒宽幅爬升，12-55秒固定高3/4；多窗口并排时两边用同一机位和时刻。",
+  "shots": [
+    {
+      "start_s": 0,
+      "end_s": 12,
+      "mode": "fixed",
+      "position_m": [-10.0, 10.0, -6.0],
+      "target_m": [0.0, 0.0, -5.0],
+      "fov_deg": 55
+    },
+    {
+      "start_s": 12,
+      "end_s": 55,
+      "mode": "fixed",
+      "position_m": [5.0, 4.3, -11.2],
+      "target_m": [0.0, 0.0, -9.8],
+      "fov_deg": 52,
+      "transition_s": 1.2
+    }
+  ]
+}

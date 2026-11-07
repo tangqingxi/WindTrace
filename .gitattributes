@@ -1,0 +1,6 @@
+# 文本统一LF，二进制资源保持原字节，便于逐文件核对来源。
+* text eol=lf
+*.png binary
+*.ico binary
+*.glb binary
+*.wtr binary

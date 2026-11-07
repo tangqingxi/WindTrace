@@ -1,0 +1,29 @@
+{
+  "schema": "windtrace.camera.v1",
+  "name": "总览到特写",
+  "description": "先用总览交代整段航迹，再切机体特写看细节，结尾回到总览停留。",
+  "shots": [
+    {
+      "start_s": 0,
+      "end_s": 10,
+      "mode": "overview",
+      "pad": 1.08
+    },
+    {
+      "start_s": 10,
+      "end_s": 27,
+      "mode": "closeup",
+      "azimuth_deg": 35,
+      "elevation_deg": 18,
+      "distance_scale": 2.2,
+      "transition_s": 1.0
+    },
+    {
+      "start_s": 27,
+      "end_s": 55,
+      "mode": "overview",
+      "pad": 1.08,
+      "transition_s": 1.0
+    }
+  ]
+}

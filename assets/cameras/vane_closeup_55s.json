@@ -1,0 +1,16 @@
+{
+  "schema": "windtrace.camera.v1",
+  "name": "舵面特写",
+  "description": "低角度跟随特写，看涵道与六舵面的动作幅度；不参与控制或评价。",
+  "shots": [
+    {
+      "start_s": 0,
+      "end_s": 55,
+      "mode": "closeup",
+      "azimuth_deg": 35,
+      "elevation_deg": 8,
+      "distance_scale": 1.5,
+      "fov_deg": 32
+    }
+  ]
+}

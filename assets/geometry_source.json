@@ -1,0 +1,60 @@
+{
+  "schema": "shc09-geometry-v1",
+  "source": "ca_shc09_parameters",
+  "generated_by": "viz/geometry/export_geometry.m",
+  "generated_at": "2026-10-31T10:58:00Z",
+  "vehicle": {
+    "l1_m": 0.267,
+    "l2_m": 0.066,
+    "vane_limit_rad": 0.69813170079773179,
+    "vane_vertices": [
+      [
+        0,
+        -0.8660254037844386,
+        -0.8660254037844386,
+        0,
+        0.8660254037844386,
+        0.8660254037844386
+      ],
+      [
+        -1,
+        -0.5,
+        0.5,
+        1,
+        0.5,
+        -0.5
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "disc_area_m2": 0.040828138126052953,
+    "disc_area_radius_m": 0.114,
+    "duct_outer_m": 0.3,
+    "duct_inner_m": 0.28,
+    "body_box_m": [
+      0.18,
+      0.18,
+      0.35
+    ],
+    "mass_kg": 2.1,
+    "inertia_kg_m2": [
+      0.0438,
+      0.0436,
+      0.005006
+    ]
+  },
+  "assumed": [
+    "duct_outer_m and duct_inner_m are visual choices, not airframe dimensions",
+    "disc_area_radius_m is the area-equivalent radius sqrt(S/pi), not the duct radius",
+    "body_box_m is a schematic box because the repository has no airframe geometry",
+    "vanes rotate about the tangential axis (-P2, P1, 0); this is a display choice, not the numerical effectiveness matrix",
+    "vane_vertices are the six unit hexagon vertices P_cs from ca_shc09_parameters"
+  ],
+  "sha256": "f94dc2cb5c2a56c19295a38355b2b2af777c26dda9e6fb10a41bb89e5679a8a2"
+}
