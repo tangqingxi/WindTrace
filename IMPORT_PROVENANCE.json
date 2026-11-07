@@ -9,7 +9,8 @@
     "source_repository": "E:/Ducted-Fan-SHC09-matlab-merge",
     "source_branch": "merge/windtrace-v02",
     "source_commit": "1bbdb51b278bc9ce8a50965a40808acae314c56b",
-    "integration_policy": "Selective assets, GLB parser and original shell/theme; new single-flight contract; no old bundle interface or numerical source imported"
+    "integration_policy": "Selective assets, GLB parser and original shell/theme; new single-flight contract; no old bundle interface or numerical source imported",
+    "note": "source_repository is the historical local checkout path recorded when the assets were first imported into the MATLAB project; it is provenance only, never read at run time."
   },
   "files": [
     {
